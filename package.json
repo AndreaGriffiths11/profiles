@@ -3,13 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  
   "scripts": {
-      "dev": "node --loader ts-node/esm index.ts",
-      "build": "tsc",
-      "start": "node index.js",
-      "lint": "eslint ."
-
+    "dev": "node --loader ts-node/esm index.ts",
+    "build": "tsc",
+    "start": "node index.js",
+    "lint": "eslint ."
   },
   "dependencies": {
     "dotenv": "^16.4.7",
